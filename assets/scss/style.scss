@@ -1,0 +1,1257 @@
+@import './config.scss';
+
+//Branding-image width shouldn't be set to 100% of its parent =) 
+
+.introduction {
+  background: url("../imgs/background-int.png");
+  background-position: right -10px top 0;
+  background-repeat: no-repeat;
+  padding-bottom: 92px;
+  min-height: 687px;
+  // .wrapper {
+  //   position: relative;
+  //   overflow: auto;
+  // }
+  nav {
+    margin-bottom: 48px;
+  }
+  .image {
+    position: relative;
+    width: 426px;
+    height: 606px;
+  }
+  .quote {
+    width: 335px;
+    height: 182px;
+    position: absolute;
+    bottom: 38px;
+    right: 219px;
+    padding: 43px 25px 19px 30px;
+  }
+  .quote img {
+    left: -5px;
+    top: -53px;
+  }
+  .container.right {
+    background-size: 100%;
+    position: relative;
+  }
+
+}
+
+.introduction .container.upper {
+
+  width: 460px;
+  margin-top: -40px;
+  h1 {
+    font-size: 66px;
+    margin-bottom: 18px;
+  }
+  p {
+    font-size: 12px;
+    margin-bottom: 62px;
+    line-height: 25px;
+  }
+  .button {
+    width: 182px;
+  }
+}
+
+.branding {
+  padding: 0;
+  img {
+    width: 100%;
+  }
+}
+
+
+.logos {
+  background-color: $gray;
+  padding: 86px 0;
+  .wrapper {
+    width: 1130px;
+    padding-right: 39px;
+  }
+  .flex.inner.first {
+    width: 494px;
+  }
+  .flex.inner.second {
+    width: 462px;
+  }
+}
+
+.services {
+  padding: 70px 0 83px;
+  .wrapper {
+    padding-right: 102px;
+  }
+  .container.upper {
+    width: 580px;
+    margin-bottom: 93px;
+    h1 {
+      margin-bottom: 10px;
+    }
+    p {
+      font-family: Arial;
+      font-weight: 400;
+      line-height: 30px;
+    }
+  }
+  .flex {
+    align-items: flex-start;
+  }
+  .flex.child.first {
+    width: 490px;
+  }
+  .flex.child.second {
+    width: 490px;
+  }
+  .service {
+    display: block;
+    width: 196px;
+    h2 {
+      font-size: 20px;
+      margin-bottom: 37px;
+    }
+    p {
+      font-weight: 400;
+      line-height: 26px;
+    }
+    .icon {
+      position: relative;
+      height: 44px;
+      margin-bottom: 38px;
+    }
+    .icon img {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+}
+
+
+.creativity {
+  padding: 100px 0px 85px;
+  background-repeat: no-repeat;
+  background-position: left center;
+  .button.second {
+    border-color: $dark-gray;
+    background: none;
+    color: $dark-purple;
+  }
+  .container.upper {
+    width: 480px;
+    margin-bottom: 60px;
+  }
+  span {
+    display: block;
+    margin-bottom: 10px;
+  }
+  p {
+    font-size: 12px;
+
+  }
+  a:first-child {
+    margin-right: 18px;
+  }
+}
+
+.creativity.first {
+  padding: 0;
+  background-image: url(/assets/imgs/background-ctvty.png);
+  .wrapper {
+    padding-right: 40px;
+  }
+  .container.upper {
+    margin-top: 13px;
+    margin-bottom: 62px;
+  }
+  span {
+    font-size: 15px;
+  }
+  h1 {
+    margin-bottom: 28px;
+  }
+  p {
+    line-height: 25px;
+
+  }
+  .images {
+    width: 534px;
+    height: 636px;
+    position: relative;
+  }
+  .image {
+    position: absolute;
+    box-shadow: 0px 5px 20px #0000002a;
+  }
+  .image.first {
+    width: 284.18px;
+    height: 405.26px;
+    top: 0;
+    left: 0;
+  }
+  .image.second {
+    width: 196.83px;
+    height: 332.89px;
+    right: 0;
+    top: 22px;
+  }
+  .image.third {
+    width: 111.33px;
+    height: 127px;
+    bottom: 55px;
+    left: 182.4px;
+  }
+  .image.fourth {
+    width: 196.83px;
+    height: 223.42px;
+    right: 0;
+    bottom: 0;
+  }
+}
+.projects {
+  padding-top: 18px;
+  .container.upper {
+    width: 600px;
+    margin-bottom: 65px;
+    h1 {
+      margin-bottom: 10px;
+    }
+    p {
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 30px;
+    }
+  }
+  .image {
+    width: 376px;
+    height: 309px;
+    margin-bottom: 35px;
+    border-radius: 14px 14px 19px 14px;
+  }
+  h2 {
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+  .project-list {
+    flex-wrap: wrap;
+    row-gap: 22px;
+    margin-bottom: 36px;
+  }
+  .project p {
+    width: 300px;
+    line-height: 26px;
+    font-weight: 400;
+  }
+  .button {
+    display: block;
+    width: 165px;
+    padding: 18px 0;
+    margin: auto;
+  }
+}
+
+.creativity.second {
+  background: url("../imgs/background-ctvty-2.png");
+  background-repeat: no-repeat;
+  background-position: left 0px bottom 138px;
+  padding-top: 114px;
+  .wrapper {
+    padding-left: 68px;
+  }
+  .flex {
+    margin-top: -3px;
+    column-gap: 114px;
+  }
+  .image {
+    width: 425.8px;
+    height: 606.1px;
+    margin-bottom: -27px;
+  }
+  .container.upper {
+    margin-bottom: 63px;
+    span {
+      font-size: 15px;
+      margin-bottom: 11px;
+    }
+    p {
+      line-height: 25px;
+    }
+    h1 {
+      margin-bottom: 27px;
+    }
+  }
+}
+
+.blog {
+  padding-top: 73px;
+  padding-bottom: 68px;
+  .wrapper {
+    padding-left: 21px;
+    padding-right: 26px;
+  }
+  .container.upper {
+    margin-bottom: 56px;
+  }
+  .container.upper h1 {
+    margin-bottom: 15px;
+  }
+  .blog-list {
+    padding-left: 7px;
+  }
+  .blog-list .item {
+    width: 365px;
+    padding: 35px 45px 35px 40px;
+    border-radius: 15px;
+    box-shadow: 0px 2px 20px #0000000d;
+    margin-bottom: 25px;
+    p {
+      font-weight: 400;
+    }
+  }
+  h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  p {
+    line-height: 26px;
+    margin-bottom: 25px;
+  }
+  span {
+    font-size: 13px;
+    font-family: "Gilroy";
+  }
+  .author {
+    margin-bottom: 31px;
+    display: block;
+  }
+  .company-name {
+    padding: 8px 18px 9px;
+    background-color: $aqua;
+    border-radius: 14px 14px 19px 14px;
+    margin-left: 0px;
+  }
+  .flex {
+    flex-wrap: wrap;
+  }
+}
+
+.reviews {
+  background-color: $gray;
+  padding: 63px 0 70px;
+  .container.upper {
+    margin-bottom: 87px;
+    h1 {
+      margin-bottom: 16px;
+    }
+    p {
+      line-height: 25px;
+    }
+  }
+  .quote {
+    max-width: 376px;
+    border-radius: 15px;
+    background-color: $dark-purple;
+    padding: 42px 38px 0px 30px;
+    width: 400px;
+    position: relative;
+    font-size: 13px;
+    img {
+      position: absolute;
+      top: -63px;
+      left: 180px;
+    }
+    p {
+      margin-bottom: 20px;
+    }
+    .quote-author {
+      color: $dark-yellow;
+      text-align: right;
+      margin-bottom: 19px;
+    }
+  }
+
+}
+
+.pricing {
+  padding-bottom: 84px;
+  padding-top: 81px;
+  .container.upper {
+    margin-bottom: 94px;
+    margin-left: 0px;
+    h1 {
+      margin-bottom: 18px;
+    }
+    p {
+      line-height: 25px;
+    }
+  }
+  .check {
+    color: #49CB86;
+    margin-left: -20px;
+  }
+  .plans {
+    padding: 0 6px;
+  }
+  .plans > .item {
+    width: 365px;
+    padding: 31px 23px 26px 33px;
+    box-shadow: 0px 2px 11.5px #0000000d;
+    // box-shadow: 0px 2px 11.5px #000000;
+    border-radius: 15px;
+    max-height: 613px;
+  }
+  .pricing-upper {
+    height: 44px;
+    margin-bottom: 25px;
+  }  
+  .plans > .item > h2 {
+    margin-bottom: 12px;
+  }
+  .plans > .item > p {
+    font-weight: $regular;
+    margin-bottom: 39px;
+    margin-left: 1px;
+  }
+  .icon.roller {
+    margin-left: 5px;
+  }
+  .icon.app {
+    margin-left: 5px;
+  }
+  .price {
+    margin-top: 7px;
+  }
+  p {
+    margin-bottom: 39px;
+    line-height: 26px;
+  }
+  .table {
+    margin-bottom: 44px;
+  }
+  .table > .item {
+    margin-bottom: 21px;
+    margin-left: 35px;
+  }
+  .condition {
+    font-size: 20px;
+    font-family: "Gilroy";
+  }
+  .button {
+    margin-left: 47%;
+    transform: translateX(-50%);
+    margin-top: 15px;
+  }
+
+  .table .check {
+    width: 30px;
+    display: inline-block;
+    margin-right: 13px;
+    margin-top: -2px;
+    text-align: center;
+  }
+}
+
+
+
+.contact {
+  background-color: $gray;
+  padding-bottom: 78px;
+  padding-top: 93px;
+  .container.upper {
+    margin-bottom: 87px;
+    h1 {
+      margin-bottom: 16px;
+    }
+    p {
+      line-height: 25px;
+    }
+  }
+  form {
+    width: 570px;
+  }
+  input:not(input[type="submit"]), textarea {
+    width: 100%;
+  }
+  .button {
+    margin-left: 10px;
+  }
+  label {
+    display: block;
+    margin-bottom: 22px;
+  }
+  .flex {
+    justify-content: space-between;
+  }
+
+  .images > .item:first-child {
+    margin-right: 15px;
+  }
+  .images {
+    margin-top: -100px;
+  }
+  .image {
+    height: 500px;
+    width: 400px;
+  }
+  .image.first {
+    height: 200px;
+    width: 180px;
+    margin-bottom: 37px;
+  }
+  .image.second {
+    height: 300px;
+    width: 180px;
+  }
+  .image.third {
+    height: 340px;
+    width: 280px;
+    margin-top: -50px;
+  }
+
+  .button {
+
+    margin-left: 4px
+  }
+}
+
+footer {
+  height: 142px;
+  background-color: $dark-purple;
+  color: white;
+  // overflow: auto;
+  a {
+    color: white;
+    padding: 0;
+  }
+  .flex > span {
+    color: white;
+    margin-left: -22px;
+  }
+  span, a {
+    font-size: 15px;
+  }
+  span span {
+    color: $purple;
+  }
+  .wrapper{
+    height: 100%;
+    position: relative;
+    overflow: auto;
+  }
+  .flex {
+    margin-top: 51px
+  }
+  .branding {
+    margin-left: 7px;
+  }
+}
+
+@import './bg-keyframes.scss';
+
+@media (max-width: 1200px) {
+  .services {
+    .wrapper {
+      // max-width: 800px;
+      padding-right: 20px;
+    }
+    .flex.parent {
+      // row-gap: 90px;
+      // flex-direction: column;
+      justify-content: flex-start;
+      column-gap: 100px;
+    }
+    .flex.child.first,
+    .flex.child.second {
+      justify-content: flex-start;
+      width: auto;
+      column-gap: 100px;
+    }
+  }
+  //Here
+  .projects {
+    .wrapper {
+      width: 830px;
+    }
+    .image {
+      // width: 300px;
+      // height: 247px;
+      margin-bottom: 35px;
+    }
+    h2 {
+      margin-bottom: 16px;
+    }
+  }
+  .creativity.first {
+    background-image: none;
+  }
+  .creativity.second {
+    background: none;
+    padding-top: 114px;
+    .wrapper {
+      padding-left: 20px;
+    }
+    .flex {
+      margin-top: 0px;
+      flex-direction: column;
+      row-gap: 60px;
+    }
+    .image {
+      width: 381.8px;
+      height: 543.1px;
+      margin-bottom: 0;
+    }
+  }
+  .blog {
+    .wrapper {
+      width: 800px;
+      padding: 0 20px;
+    }
+    .blog-list {
+      padding: 0;
+    }
+  }
+
+  .reviews {
+    .flex {
+      flex-direction: column;
+      row-gap: 40px;
+      width: 376px;
+      margin: auto;
+    }
+    .container.upper {
+      width: 500px;
+      margin: auto;
+      margin-bottom: 40px;
+    }
+  }
+  .pricing {
+    .plans {
+      flex-direction: column;
+      row-gap: 60px;
+    }
+    .container.upper {
+      width: 500px;
+      margin: auto;
+      margin-bottom: 60px;
+    }
+  }
+  .contact {
+    .flex:not(.images) {
+      flex-direction: column;
+      row-gap: 60px;
+    }
+    .images {
+      margin: 0;
+    }
+    .container.upper {
+      width: 570px;
+      margin: auto;
+      margin-bottom: 60px;
+    }
+    .button {
+      width: 100%;
+    }
+  }
+}
+
+@media  (max-width: 1150px){
+  .wrapper-nr {
+    width: 95%;
+  }
+  .logos {
+    .wrapper {
+      width: 947px;
+    }
+    .flex.inner.first {
+      width: 418px;
+    }
+    .flex.inner.second {
+      width: 391px;
+    }
+  }
+  .services {
+    .flex.parent {
+      column-gap: 65px;
+    }
+    .flex.child.first,
+    .flex.child.second {
+      column-gap: 65px;
+    }
+  }
+  .creativity.first {
+    padding-bottom: 70px;
+    .wrapper {
+      padding: 0 20px;
+    }
+    .flex {
+      flex-direction: column;
+      row-gap: 90px;
+    }
+    .container.upper {
+      margin-top: 13px;
+      margin-bottom: 62px;
+    }
+    h1 {
+      margin-bottom: 28px;
+    }
+  }
+
+}
+
+@media (max-width: 1000px) {
+  nav {
+    .nav-group {
+      display: none;
+    }
+    .hamburger {
+      display: inline-block;
+    }
+  }
+  .introduction  {
+    background-position: bottom;
+    .container.main.flex {
+      flex-direction: column;
+    }
+    .container.upper {
+      margin-bottom: 60px;
+    }
+    // iPad Styles
+    .container.upper h1 {
+      font-size: 50px;
+    }
+    .container.upper p {
+      margin-bottom: 40px;
+    }
+    .image {
+      width: 281px;
+      height: 400px;
+    }
+    .quote {
+      width: 320px;
+      height: 174px;
+      bottom: -29px;
+      right: 130px;
+    }
+    .quote img {
+      width: 57px;
+    }
+    .container.right {
+      margin-left: 150px;
+    }
+  }
+
+  .logos {
+    .wrapper {
+      width: 593px;
+    }
+    .flex.parent {
+      flex-direction: column;
+    }
+    .flex.inner.first {
+      width: 100%;
+      margin-bottom: 37px;
+    }
+    .flex.inner.second {
+      width: 514px;
+      margin-left: 20px;
+    }
+  }
+
+  .services {
+    .container.upper {
+      width: 95%;
+    }
+
+    .wrapper {
+      max-width: 800px;
+      padding-right: 50px;
+      padding-left: 50px;
+    }
+    .flex.parent {
+      row-gap: 90px;
+      flex-direction: column;
+    }
+    .flex.child.first,
+    .flex.child.second {
+      justify-content: space-between;
+      width: 100%;
+    }
+    .service {
+      width: 300px;
+    }
+  }
+
+  // Here
+  .projects {
+    .wrapper {
+      width: 674px;
+    }
+    .image {
+      width: 300px;
+      height: 247px;
+      margin-bottom: 35px;
+    }
+    h2 {
+      margin-bottom: 16px;
+    }
+  }
+  .creativity.first {
+    .flex {
+      row-gap: 90px;
+    }
+    .images {
+      width: 357px;
+      height: 427px;
+    }
+    .image.first {
+      width: 190.85px;
+      height: 272.16px;
+      top: 0;
+      left: 0;
+    }
+    .image.second {
+      width: 132.18px;
+      height: 223.56px;
+      right: 0;
+      top: 14.9px;
+    }
+    .image.third {
+      width: 74.77px;
+      height: 83.89px;
+      bottom: 36px;
+      left: 122.5px;
+    }
+    .image.fourth {
+      width: 132.18px;
+      height: 150.04px;
+      right: 0;
+      bottom: 0;
+    }
+  }
+  .creativity.second {
+    .image {
+      width: 293.8px;
+      height: 419.1px;
+      margin-bottom: 0;
+    }
+    .container.upper {
+      width: 406px;
+    }
+  }
+  .blog {
+    .wrapper {
+      width: 100%;
+    }
+    .blog-list {
+      width: 365px;
+      margin: auto;
+      row-gap: 40px;
+    }
+    .container.upper {
+      width: 406px;
+      margin: auto;
+      margin-bottom: 40px;
+    }
+    
+  }
+
+
+}
+@media (max-width: 680px) {
+  .services {
+    .container.upper {
+      margin-bottom: 50px;
+    }
+    .wrapper {
+      max-width: 800px;
+      padding-right: 50px;
+      padding-left: 50px;
+    }
+    .flex.parent {
+      row-gap: 50px;
+      flex-direction: column;
+    }
+    .flex.child.first,
+    .flex.child.second {
+      justify-content: space-between;
+      flex-direction: column;
+      row-gap: 50px;
+      width: 100%;
+    }
+    .service {
+      width: 97%;
+    }
+    .service .icon,
+    .service h2 {
+      margin-bottom: 20px;
+    }
+  } 
+  //Here
+  .projects {
+    .wrapper {
+      width: 100%;
+      padding: 0;
+    }
+    .container.upper {
+      width: 300px;
+      margin: auto
+    }
+    .image {
+      width: 300px;
+      height: 247px;
+      margin-bottom: 35px;
+    }
+    h2 {
+      margin-bottom: 16px;
+    }
+    .project-list {
+      flex-direction: column;
+      width: 100%;
+    }
+    .container.upper {
+      margin-bottom: 30px;
+    }
+    .button {
+      margin: auto;
+      transform: none;
+    }
+  }
+  .creativity.first {
+    .flex {
+      row-gap: 90px;
+    }
+    .images {
+      width: 357px;
+      height: 427px;
+    }
+    .image.first {
+      width: 190.85px;
+      height: 272.16px;
+    }
+    .image.second {
+      width: 132.18px;
+      height: 223.56px;
+      top: 14.9px;
+    }
+    .image.third {
+      width: 74.77px;
+      height: 83.89px;
+      bottom: 36px;
+      left: 122.5px;
+    }
+    .image.fourth {
+      width: 132.18px;
+      height: 150.04px;
+    }
+    .button {
+      padding: 18px 0;
+      width: 151px;
+    }
+  }
+  .creativity {
+    .wrapper {
+      padding: 0 10px;
+    }
+    .button {
+      padding: 18px 0;
+      width: 151px;
+    }
+  }
+  .contact {
+    .container.upper {
+      width: 100%;
+    }
+    form {
+      width: 100%;
+    }
+  }
+  footer {
+
+    a {
+      display: none;
+    }
+  }
+}
+@media (max-width: 595px) {
+
+  .logos {
+    padding: 48px 0;
+    .wrapper {
+      width: 295px;
+      padding-right: 20px;
+    }
+    .flex.parent {
+      flex-direction: row;
+    }
+    .flex.inner.first {
+      flex-direction: column;
+      width: 100%;
+      margin-bottom: 0;
+      row-gap: 70px
+    }
+    .flex.inner.second {
+      flex-direction: column;
+      width: 514px;
+      margin-left: 20px;
+      row-gap: 50px
+    }
+  }
+
+  .creativity.first {
+    .flex {
+      row-gap: 50px;
+    }
+    .container.upper {
+      width: 332px;
+      margin-bottom: 50px;
+    }
+    .images {
+      width: 328px;
+      height: 389px;
+    }
+    .image.first {
+      width: 174px;
+      height: 248px;
+    }
+    .image.second {
+      width: 120.48px;
+      height: 203.77px;
+      top: 13.6px;
+    }
+    .image.third {
+      width: 68.15px;
+      height: 76.47px;
+      bottom: 32.6px;
+      left: 114.3px;
+    }
+    .image.fourth {
+      width: 120.48px;
+      height: 136.76px;
+    }
+  }
+  .reviews {
+    .flex {
+      flex-direction: column;
+      row-gap: 40px;
+      width: 376px;
+      margin: auto;
+    }
+    .container.upper {
+      width: 406px;
+      margin: auto;
+      margin-bottom: 40px;
+    }
+  }
+
+  .pricing {
+    .container.upper {
+      width: 406px;
+    }
+  }
+}
+
+@media (max-width: 525px) {
+  .introduction  {
+    .container.upper {
+      width: 312px;
+      margin-bottom: 24px;
+    }
+    .container.upper h1 {
+      font-size: 40px;
+    }
+    .container.upper p {
+      margin-bottom: 32px;
+    }
+    .container.right {
+      margin-left: 60px;
+    }
+    .image {
+      width: 222px;
+      height: 320px;
+    }
+    .quote {
+      width: 219px;
+      height: 146px;
+      bottom: -29px;
+      right: 40px;
+      padding-top: 17px;
+      padding-left: 12px;
+      padding-right: 10px;
+    }
+    .quote img {
+      width: 40px;
+      left: 0;
+      top: -40px;
+    }
+    .quote p {
+      font-size: 12px;
+      margin: 0;
+    }
+  }
+}
+
+@media (max-width : 490px) {
+  .menu {
+    width: 100%;
+  }
+  .blog {
+    .container.upper {
+      width: 300px;
+    }
+    .blog-list {
+      width: 300px;
+      margin: auto;
+    }
+    .blog-list .item {
+      width: 100%;
+
+      padding: 20px 33px;
+    }
+  }
+  .creativity {
+    a:first-child {
+        margin-right: 5px;
+    }
+    .button {
+        padding: 18px 0;
+        width: 41px;
+    }
+  }
+  .creativity.second {
+    .container.upper {
+      width: 300px;
+      margin: auto;
+      margin-bottom: 40px;
+    }
+  }
+  .reviews {
+    .flex {
+      width: 219px;
+    }
+    .container.upper {
+      width: 300px;
+    }
+    .quote {
+      width: 219px;
+      height: 146px;
+      padding-top: 17px;
+      padding-left: 12px;
+      padding-right: 10px;
+    }
+    .quote p {
+      font-size: 12px;
+      margin: 0;
+    }
+    .quote img {
+      width: 40px;
+      left: 0;
+      top: -40px;
+    }
+  }
+  .pricing {
+    .container.upper {
+      width: 300px;
+    }
+    .plans > .item {
+      width: 310px;
+    }
+  }
+  .contact {
+    .container.upper {
+      width: 100%;
+    }
+    form {
+      width: 100%;
+    }
+    .images {
+      display: none;
+    }
+  }
+
+  footer {
+    .flex.space-between {
+      flex-direction: column;
+      margin-top: 0;
+      justify-content: space-around;
+      height: 100%;
+    }
+    .flex > span {
+      margin-left: 0;
+    }
+  }
+}
+
+@media (max-width : 410px) {
+  .services {
+    .wrapper {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+  .creativity.first {
+    .flex {
+      row-gap: 50px;
+    }
+    .container.upper {
+      width: 315px;
+      margin-bottom: 50px;
+    }
+    a:first-child {
+      margin-right: 5px;
+    }
+    .images {
+      width: 313px;
+      height: 371px;
+    }
+    .image.first {
+      width: 165.87px;
+      height: 236.54px;
+    }
+    .image.second {
+      width: 114.88px;
+      height: 194px;
+      top: 13.6px;
+    }
+    .image.third {
+      width: 64.98px;
+      height: 72.91px;
+      bottom: 31.1px;
+      left: 109px;
+    }
+    .image.fourth {
+      width: 114.88px;
+      height: 130.4px;
+    }
+  }
+
+  .blog {
+    .blog-list {
+      width: 270px;
+    }
+  }
+}
+
+
+@media (max-width : 320px) {
+  .introduction {
+    .container.upper {
+      width: 97%;
+      margin-bottom: 24px;
+      h1 {
+        font-size: 35px;
+      }
+    }
+  }
+  .creativity.second,
+  .creativity.first {
+    .button {
+      padding: 18px 0;
+      width: 41px;
+    }
+  }
+}
+
+
+

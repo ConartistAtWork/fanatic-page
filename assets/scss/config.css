@@ -1,0 +1,241 @@
+@font-face {
+  font-family: "Gilroy";
+  src: url(../fonts/gilroy_extrabold.otf); }
+*,
+*::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  background-color: white;
+  font-family: "Poppins";
+  font-weight: 500; }
+
+h1, h2, h3, p, a, label, span {
+  color: #0b093b; }
+
+h1 {
+  font-size: 40px;
+  font-family: "Gilroy";
+  font-weight: 800; }
+
+h2 {
+  font-size: 30px;
+  font-family: "Gilroy"; }
+
+h3 {
+  font-family: "Gilroy"; }
+
+label, p {
+  font-size: 13px;
+  font-weight: 500; }
+
+a, img {
+  display: block; }
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 15px;
+  text-align: center; }
+
+ul {
+  list-style: none;
+  display: flex; }
+
+nav {
+  padding: 21px 0;
+  z-index: 90; }
+  nav a {
+    margin-right: 30.5px; }
+  nav .nav-group {
+    padding-bottom: 0px; }
+  nav .nav-group:first-child {
+    margin-right: 56px; }
+  nav .nav-group.login a:first-child {
+    margin-right: 37.8px; }
+  nav .nav-group.login a:last-child {
+    margin-right: 0;
+    padding: 8px 25px;
+    background-color: white;
+    border-radius: 25px; }
+  nav .flex > .flex {
+    margin-top: -4px; }
+  nav .hamburger {
+    display: none;
+    cursor: pointer;
+    padding: 10px; }
+  nav .bar1, nav .bar2, nav .bar3 {
+    width: 1.5rem;
+    height: 2px;
+    background-color: #0b093b;
+    margin: 8px 0; }
+
+input, textarea {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #707070;
+  color: #0b093b;
+  font-size: 20px;
+  font-family: "Gilroy";
+  margin-bottom: 40px;
+  padding: 18px 0;
+  outline: none;
+  transition: border-color 0.5s; }
+
+input {
+  padding: 0 0 17px; }
+
+input:focus, textarea:focus {
+  border-color: #7620ff; }
+
+textarea {
+  resize: none;
+  padding-top: 0;
+  height: 155px;
+  margin-bottom: 31px; }
+
+::-webkit-input-placeholder {
+  color: #0b093b;
+  transition: color 0.5s; }
+
+::-moz-placeholder {
+  color: #0b093b;
+  opacity: 1;
+  transition: color 0.5s; }
+
+i {
+  font-weight: 400; }
+
+.page-container {
+  width: 100%;
+  max-width: 1920px;
+  margin: auto; }
+
+.branding {
+  padding: 0; }
+  .branding img {
+    width: 100%; }
+
+.branding img {
+  width: 100px;
+  image-rendering: auto;
+  image-rendering: crisp-edges; }
+
+.background-image {
+  position: absolute; }
+
+.hidden {
+  display: none; }
+
+a:hover {
+  cursor: pointer; }
+
+.wrapper {
+  width: 100%;
+  max-width: calc(1200px);
+  padding: 0 20px;
+  margin: auto; }
+
+.wrapper.nr {
+  padding-right: 50px; }
+
+.grid {
+  display: grid;
+  justify-content: center; }
+
+.flex {
+  display: flex;
+  align-items: center; }
+
+.flex.space-between {
+  justify-content: space-between; }
+
+.flex.center {
+  justify-content: center; }
+
+.container.upper {
+  width: 450px; }
+  .container.upper h1 {
+    margin-bottom: 20px; }
+  .container.upper p {
+    line-height: 26px; }
+
+.container.upper.mg-n {
+  margin-bottom: 100px; }
+
+.container.upper.mg-s {
+  margin-bottom: 50px; }
+
+.quote {
+  max-width: 376px;
+  border-radius: 15px;
+  background-color: #0b093b;
+  padding: 40px 40px 19px 30px;
+  width: 400px;
+  position: relative;
+  font-size: 13px; }
+  .quote img {
+    position: absolute;
+    top: -63px;
+    left: 50%;
+    transform: translateX(-50%); }
+  .quote p {
+    color: white;
+    line-height: 25px;
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom: 20px; }
+  .quote .quote-author {
+    color: #F2B300;
+    text-align: right; }
+
+.button {
+  background-color: #7620ff;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Poppins";
+  min-width: 130px;
+  padding: 18px 45px;
+  border: 1px solid #7620ff;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: opacity 0.2s;
+  margin-bottom: 0; }
+
+.button:hover {
+  opacity: 0.9; }
+
+.image {
+  background-image: url("../imgs/placeholder.png");
+  background-color: #deeaf3;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 15px; }
+
+::-webkit-scrollbar,
+::-webkit-scrollbar-horizontal {
+  width: 10px;
+  border-radius: 10px; }
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: #F5F5F5; }
+
+::-webkit-scrollbar-thumb {
+  width: 10px;
+  border-radius: 10px;
+  background-color: #808080; }
+
+@media (max-width: 490px) {
+  .container.upper h1 {
+    font-size: 35px; } }
+@media (max-width: 320px) {
+  .container.upper {
+    width: 95%;
+    margin-bottom: 24px; } }

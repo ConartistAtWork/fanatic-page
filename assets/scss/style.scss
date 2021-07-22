@@ -19,6 +19,7 @@
     position: relative;
     width: 426px;
     height: 606px;
+    background-image: url("../imgs/office-1.jpg");
   }
   .quote {
     width: 335px;
@@ -191,24 +192,28 @@
     height: 405.26px;
     top: 0;
     left: 0;
+    background-image: url("../imgs/creativity-1.jpg");
   }
   .image.second {
     width: 196.83px;
     height: 332.89px;
     right: 0;
     top: 22px;
+    background-image: url("../imgs/creativity-2.jpg");
   }
   .image.third {
     width: 111.33px;
     height: 127px;
     bottom: 55px;
     left: 182.4px;
+    background-image: url("../imgs/creativity-3.jpg");
   }
   .image.fourth {
     width: 196.83px;
     height: 223.42px;
     right: 0;
     bottom: 0;
+    background-image: url("../imgs/creativity-4.jpg");
   }
 }
 .projects {
@@ -230,6 +235,25 @@
     margin-bottom: 35px;
     border-radius: 14px 14px 19px 14px;
   }
+  .project:first-child .image {
+    background-image: url("../imgs/project-1.jpg");
+  }
+  .project:nth-child(2) .image {
+    background-image: url("../imgs/project-2.jpg");
+  }
+  .project:nth-child(3) .image {
+    background-image: url("../imgs/project-3.jpg");
+  }
+  .project:nth-child(4) .image {
+    background-image: url("../imgs/project-4.jpg");
+  }
+  .project:nth-child(5) .image {
+    background-image: url("../imgs/project-5.jpg");
+  }
+  .project:last-child .image {
+    background-image: url("../imgs/project-6.jpg");
+  }
+
   h2 {
     font-size: 20px;
     margin-bottom: 16px;
@@ -268,6 +292,7 @@
     width: 425.8px;
     height: 606.1px;
     margin-bottom: -27px;
+    background-image: url("../imgs/creativity-5.jpg");
   }
   .container.upper {
     margin-bottom: 63px;
@@ -499,15 +524,18 @@
     height: 200px;
     width: 180px;
     margin-bottom: 37px;
+    background-image: url("../imgs/contact-1.jpg")
   }
   .image.second {
     height: 300px;
     width: 180px;
+    background-image: url("../imgs/contact-2.jpg")
   }
   .image.third {
     height: 340px;
     width: 280px;
     margin-top: -50px;
+    background-image: url("../imgs/contact-3.jpg")
   }
 
   .button {

@@ -41,7 +41,6 @@
 }
 
 .introduction .container.upper {
-
   width: 460px;
   margin-top: -40px;
   h1 {
@@ -135,7 +134,7 @@
 .creativity {
   padding: 100px 0px 85px;
   background-repeat: no-repeat;
-  background-position: left center;
+  background-position: center center;
   .button.second {
     border-color: $dark-gray;
     background: none;
@@ -673,6 +672,23 @@ footer {
     .images {
       margin: 0;
     }
+    .images > .item:first-child {
+      margin-right: 11px;
+    }
+    .image.first {
+      width: 127px;
+      height: 144px;
+      margin-bottom: 28px;
+    }
+    .image.second {
+      width: 127px;
+      height: 209px;
+    }
+    .image.third {
+      width: 198px;
+      height: 234px;
+      margin-top: -57px;
+    }
     .container.upper {
       width: 570px;
       margin: auto;
@@ -729,7 +745,7 @@ footer {
 }
 
 @media (max-width: 1000px) {
-  nav {
+  nav:not(.mobile) {
     .nav-group {
       display: none;
     }
@@ -1193,9 +1209,6 @@ footer {
     form {
       width: 100%;
     }
-    .images {
-      display: none;
-    }
   }
 
   footer {
@@ -1259,6 +1272,31 @@ footer {
       width: 270px;
     }
   }
+
+  .contact {
+    .images > .item:first-child {
+      margin-right: 10px;
+    }
+    .image.first {
+      width: 105px;
+      height: 127px;
+      margin-bottom: 23px;
+    }
+    .image.second {
+      width: 105px;
+      height: 184px;
+    }
+    .image.third {
+      width: 164px;
+      height: 207px;
+      margin-top: -50px;
+    }
+  }
+
+  nav.mobile {
+    max-width: 100%;
+  }
+
 }
 
 

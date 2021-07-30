@@ -49,6 +49,8 @@ nav {
   z-index: 90; }
   nav a {
     margin-right: 30.5px; }
+  nav a:hover {
+    opacity: 0.8; }
   nav .nav-group {
     padding-bottom: 0px; }
   nav .nav-group:first-child {
@@ -59,7 +61,8 @@ nav {
     margin-right: 0;
     padding: 8px 25px;
     background-color: white;
-    border-radius: 25px; }
+    border-radius: 25px;
+    transition: opacity 0.5s; }
   nav .flex > .flex {
     margin-top: -4px; }
   nav .hamburger {
@@ -71,6 +74,67 @@ nav {
     height: 2px;
     background-color: #0b093b;
     margin: 8px 0; }
+  nav .close-button {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 7px;
+    cursor: pointer; }
+  nav .close-button:before, nav .close-button::after {
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 33px;
+    width: 3px;
+    background-color: white; }
+  nav .close-button:before {
+    transform: rotate(45deg); }
+  nav .close-button:after {
+    transform: rotate(-45deg); }
+  nav .close-button:hover:before, nav .close-button:hover:after {
+    opacity: 0.8; }
+  nav .container.flex {
+    position: relative; }
+
+nav.mobile {
+  position: fixed;
+  width: 100%;
+  max-width: 375px;
+  height: 100%;
+  padding: 28px 0 40px;
+  background-color: #0b093b;
+  right: -410px;
+  transition: right 0.4s; }
+  nav.mobile .wrapper {
+    position: relative;
+    height: 100%; }
+  nav.mobile .branding {
+    width: 104px; }
+  nav.mobile a {
+    color: white; }
+  nav.mobile .nav-group.top {
+    padding: 0 40px; }
+  nav.mobile .nav-group.top a {
+    display: block;
+    width: fit-content;
+    margin: 60px 0;
+    font-size: 20px; }
+  nav.mobile .nav-group.login {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    padding: 0 60px; }
+  nav.mobile .nav-group.bottom a {
+    margin: 0; }
+  nav.mobile .nav-group.login a:last-child {
+    color: #0b093b;
+    transition: opacity 0.5s; }
+
+nav.mobile.open {
+  right: 0; }
 
 input, textarea {
   background: none;
@@ -335,7 +399,7 @@ a:hover {
 .creativity {
   padding: 100px 0px 85px;
   background-repeat: no-repeat;
-  background-position: left center; }
+  background-position: center center; }
   .creativity .button.second {
     border-color: #707070;
     background: none;
@@ -770,6 +834,19 @@ footer {
     row-gap: 60px; }
   .contact .images {
     margin: 0; }
+  .contact .images > .item:first-child {
+    margin-right: 11px; }
+  .contact .image.first {
+    width: 127px;
+    height: 144px;
+    margin-bottom: 28px; }
+  .contact .image.second {
+    width: 127px;
+    height: 209px; }
+  .contact .image.third {
+    width: 198px;
+    height: 234px;
+    margin-top: -57px; }
   .contact .container.upper {
     width: 570px;
     margin: auto;
@@ -806,9 +883,9 @@ footer {
     .creativity.first h1 {
       margin-bottom: 28px; } }
 @media (max-width: 1000px) {
-  nav .nav-group {
+  nav:not(.mobile) .nav-group {
     display: none; }
-  nav .hamburger {
+  nav:not(.mobile) .hamburger {
     display: inline-block; }
 
   .introduction {
@@ -1127,8 +1204,6 @@ footer {
     width: 100%; }
   .contact form {
     width: 100%; }
-  .contact .images {
-    display: none; }
 
   footer .flex.space-between {
     flex-direction: column;
@@ -1169,7 +1244,24 @@ footer {
     height: 130.4px; }
 
   .blog .blog-list {
-    width: 270px; } }
+    width: 270px; }
+
+  .contact .images > .item:first-child {
+    margin-right: 10px; }
+  .contact .image.first {
+    width: 105px;
+    height: 127px;
+    margin-bottom: 23px; }
+  .contact .image.second {
+    width: 105px;
+    height: 184px; }
+  .contact .image.third {
+    width: 164px;
+    height: 207px;
+    margin-top: -50px; }
+
+  nav.mobile {
+    max-width: 100%; } }
 @media (max-width: 320px) {
   .introduction .container.upper {
     width: 97%;

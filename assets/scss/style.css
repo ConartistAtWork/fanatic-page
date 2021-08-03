@@ -10,7 +10,8 @@
 html {
   background-color: white;
   font-family: "Poppins";
-  font-weight: 500; }
+  font-weight: 500;
+  scroll-behavior: smooth; }
 
 h1, h2, h3, p, a, label, span {
   color: #0b093b; }
@@ -305,7 +306,7 @@ a:hover {
     margin-bottom: 24px; } }
 .introduction {
   background: url("../imgs/background-int.png");
-  background-position: right -10px top 0;
+  background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 92px;
   min-height: 687px; }
@@ -724,51 +725,6 @@ footer {
   footer .branding {
     margin-left: 7px; }
 
-@media (max-width: 1895px) {
-  .introduction {
-    background-position: right -20px top 0; } }
-@media (max-width: 1868px) {
-  .introduction {
-    background-position: right -40px top 0; } }
-@media (max-width: 1841px) {
-  .introduction {
-    background-position: right -60px top 0; } }
-@media (max-width: 1790px) {
-  .introduction {
-    background-position: right -80px top 0; } }
-@media (max-width: 1750px) {
-  .introduction {
-    background-position: right -100px top 0; } }
-@media (max-width: 1710px) {
-  .introduction {
-    background-position: right -120px top 0; } }
-@media (max-width: 1670px) {
-  .introduction {
-    background-position: right -140px top 0; } }
-@media (max-width: 1630px) {
-  .introduction {
-    background-position: right -160px top 0; } }
-@media (max-width: 1590px) {
-  .introduction {
-    background-position: right -180px top 0; } }
-@media (max-width: 1540px) {
-  .introduction {
-    background-position: right -200px top 0; } }
-@media (max-width: 1500px) {
-  .introduction {
-    background-position: right -220px top 0; } }
-@media (max-width: 1460px) {
-  .introduction {
-    background-position: right -240px top 0; } }
-@media (max-width: 1420px) {
-  .introduction {
-    background-position: right -260px top 0; } }
-@media (max-width: 1390px) {
-  .introduction {
-    background-position: right -280px top 0; } }
-@media (max-width: 1350px) {
-  .introduction {
-    background: none; } }
 @media (max-width: 1200px) {
   .services .wrapper {
     padding-right: 20px; }
@@ -787,6 +743,9 @@ footer {
     margin-bottom: 35px; }
   .projects h2 {
     margin-bottom: 16px; }
+
+  .introduction {
+    background-image: none; }
 
   .creativity.first {
     background-image: none; }

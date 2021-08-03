@@ -4,7 +4,7 @@
 
 .introduction {
   background: url("../imgs/background-int.png");
-  background-position: right -10px top 0;
+  background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 92px;
   min-height: 687px;
@@ -575,8 +575,6 @@ footer {
   }
 }
 
-@import './bg-keyframes.scss';
-
 @media (max-width: 1200px) {
   .services {
     .wrapper {
@@ -609,6 +607,10 @@ footer {
     h2 {
       margin-bottom: 16px;
     }
+  }
+  .introduction {
+    background-image: none;
+
   }
   .creativity.first {
     background-image: none;

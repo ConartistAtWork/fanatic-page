@@ -6,3 +6,7 @@ function openMenu() {
 function closeMenu() {
   document.getElementById("nav-open").classList.remove('open');
 }
+
+function scrollToTop() {
+  document.documentElement.scrollTop = 0;
+}

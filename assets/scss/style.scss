@@ -1,17 +1,11 @@
 @import './config.scss';
 
-//Branding-image width shouldn't be set to 100% of its parent =) 
-
 .introduction {
   background: url("../imgs/background-int.png");
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 92px;
   min-height: 687px;
-  // .wrapper {
-  //   position: relative;
-  //   overflow: auto;
-  // }
   nav {
     margin-bottom: 48px;
   }
@@ -422,7 +416,6 @@
     width: 365px;
     padding: 31px 23px 26px 33px;
     box-shadow: 0px 2px 11.5px #0000000d;
-    // box-shadow: 0px 2px 11.5px #000000;
     border-radius: 15px;
     max-height: 613px;
   }
@@ -547,7 +540,6 @@ footer {
   height: 142px;
   background-color: $dark-purple;
   color: white;
-  // overflow: auto;
   a {
     color: white;
     padding: 0;
@@ -578,12 +570,9 @@ footer {
 @media (max-width: 1200px) {
   .services {
     .wrapper {
-      // max-width: 800px;
       padding-right: 20px;
     }
     .flex.parent {
-      // row-gap: 90px;
-      // flex-direction: column;
       justify-content: flex-start;
       column-gap: 100px;
     }
@@ -594,14 +583,12 @@ footer {
       column-gap: 100px;
     }
   }
-  //Here
+
   .projects {
     .wrapper {
       width: 830px;
     }
     .image {
-      // width: 300px;
-      // height: 247px;
       margin-bottom: 35px;
     }
     h2 {
@@ -829,7 +816,6 @@ footer {
     }
   }
 
-  // Here
   .projects {
     .wrapper {
       width: 674px;
@@ -934,7 +920,6 @@ footer {
       margin-bottom: 20px;
     }
   } 
-  //Here
   .projects {
     .wrapper {
       width: 100%;

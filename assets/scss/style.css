@@ -418,7 +418,7 @@ a:hover {
 
 .creativity.first {
   padding: 0;
-  background-image: url(../imgs/background-ctvty.png); }
+  background-image: url("../imgs/background-ctvty.png"); }
   .creativity.first .wrapper {
     padding-right: 40px; }
   .creativity.first .container.upper {
